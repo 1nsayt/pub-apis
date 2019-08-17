@@ -9,20 +9,31 @@
   </head>
   <body>
     <header class="header">
-      <div class="header-text">public-apis</div>
+      <div class="wrapper">
+        <div class="header-text">public-apis</div>
+      </div>
     </header>
-    <main>
-      <section class="search">
-        <form id="search-form">
-          <input
-            class="form-control"
-            id="searchText"
-            placeholder="Write here" />
-        </form>
-      </section>
-      <section class="picure"></section>
-      <section class="music"></section>
-      <section class="anime"></section>
+    <main class="main">
+      <div class="wrapper">
+          <section class="search">
+            <form class="search-form">
+              <input
+                class="search-input"
+                id="searchText"
+                placeholder="Write here"
+              />
+            </form>
+          </section>
+          <section class="output">
+            <div class="picture">
+              <div class="picture-item">
+                <img src="" alt="" class="picture-img"/>
+              </div>
+            </div>
+            <div class="music">2</div>
+            <div class="anime">3</div>
+          </section>
+      </div>
     </main>
     <script src="./script.js"></script>
   </body>
