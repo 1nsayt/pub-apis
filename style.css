@@ -1,7 +1,29 @@
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #efefef;
 }
 
+li {
+    list-style-type: decimal;
+}
+
+ul {
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h3 {
+    margin: 5px 0 0;
+}
+
+input {
+    outline: none;
+}
 .wrapper {
     max-width: 1080px;
     margin: 0 auto;
@@ -13,12 +35,48 @@ body {
 
 .output {
     display: flex;
+    height: 600px;
 }
 
 .output > div {
     border: 1px solid black;
 }
 
+.output > div:not(:last-child) {
+    border-right: none;
+}
+
 .picture, .music, .anime {
     flex: 1 1 0;
 }
+
+h4 {
+    text-transform: uppercase;
+}
+
+.picture-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.picture-img {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 50%;
+    border-radius: 5%;
+}
+
+.picture-description {
+    font-weight: 500;
+}
+
+.picture-likes {
+   font-weight: 900; 
+}
+
