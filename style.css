@@ -1,118 +1,122 @@
 body {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    background-color: #efefef;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #efefef;
 }
 
 li {
-    list-style-type: decimal;
+  list-style-type: decimal;
 }
 
 ul {
-    text-align: left;
+  text-align: left;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 h3 {
-    margin: 5px 0 0;
+  margin: 5px 0 0;
 }
 
 input {
-    outline: none;
-    margin-top: 10px;
+  outline: none;
+  margin-top: 10px;
 }
 .wrapper {
-    max-width: 1080px;
-    margin: 0 auto;
+  max-width: 1080px;
+  margin: 0 auto;
 }
 
-.header, .search , .output {
-    text-align: center;
+.header,
+.search,
+.output {
+  text-align: center;
 }
 
 .output {
-    display: flex;
-    height: 600px;
+  display: flex;
+  height: 600px;
 }
 
 .output > div {
-    border: 1px solid black;
+  border: 1px solid black;
 }
 
 .output > div:not(:last-child) {
-    border-right: none;
+  border-right: none;
 }
 
-.picture, .music, .anime {
-    flex: 1 1 0;
+.picture,
+.music,
+.anime {
+  flex: 1 1 0;
 }
 
 h4 {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .picture-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
 }
 
 .picture-img {
-    width: 200px;
-    height: 200px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    height: 50%;
-    border-radius: 5%;
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 50%;
+  border-radius: 5%;
 }
 
 .picture-description {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .picture-likes {
-   font-weight: 900; 
+  font-weight: 900;
 }
 
 .genre-select {
-    border-radius: 3px;
-    border: 1px solid #DEB887;
+  border-radius: 3px;
+  border: 1px solid #deb887;
 }
 .search-input {
-    width: 300px;
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid red;
+  width: 300px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid red;
 }
 .info {
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .avatar {
-    width: 180px;
-    height: 200px;
-    border-radius: 5px;
-    visibility: hidden;
+  width: 180px;
+  height: 200px;
+  border-radius: 5px;
+  visibility: hidden;
 }
 
 .info span {
-    display: inline-block;
-    margin: 10px 0 0 5px;
-    align-self: flex-start;
-    font-weight: 500;
+  display: inline-block;
+  margin: 10px 0 0 5px;
+  align-self: flex-start;
+  font-weight: 500;
 }
 
 .info p {
-    margin: 10px 5px 0;
-    line-height: 1.5;
+  margin: 10px 5px 0;
+  line-height: 1.5;
 }
