@@ -6,7 +6,10 @@
     <link rel="stylesheet" href="style.css" />
     <title>APIs</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,900&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
@@ -16,61 +19,49 @@
     </header>
     <main class="main">
       <div class="wrapper">
-          <section class="output">
-            <div class="picture">
-              <h3>Picture</h3>
-              <div class="picture-item">
-                <div class="picture-img"></div>
-                <p class="picture-description"></p>
-                <span class="picture-likes"></span>
-              </div>
+        <section class="output">
+          <div class="picture">
+            <h3>Picture</h3>
+            <div class="picture-item">
+              <div class="picture-img"></div>
+              <p class="picture-description"></p>
+              <span class="picture-likes"></span>
             </div>
-            <div class="music">
-              <h3>Music</h3>
-              <form>
-                <input list="genres" name="genre" class="genre-select">
-                <datalist id="genres">
-                  <option value="rap">
-                  <option value="disco">
-                  <option value="rock">
-                  <option value="pop">
-                </datalist>
-                <input type="submit" class="genre-submit" value="show" >
-                <input type="submit" class="genre-clean" value="clean" >
-              </form>
-              <ul class="topTen" data-state = false >
-              </ul>
+          </div>
+          <div class="music">
+            <h3>Music</h3>
+            <form>
+              <input list="genres" name="genre" class="genre-select" />
+              <datalist id="genres">
+                <option value="rap"> </option>
+                <option value="disco"> </option>
+                <option value="rock"> </option>
+                <option value="pop"> </option>
+              </datalist>
+              <input type="submit" class="genre-submit" value="show" />
+              <input type="submit" class="genre-clean" value="clean" />
+            </form>
+            <ul class="topTen" data-state="false"></ul>
+          </div>
+          <div class="anime">
+            <h3>Anime</h3>
+            <form class="search-form">
+              <input class="search-input" placeholder="Write name of anime and click enter"  pattern="^[a-zA-Z]+$" title="Любое слово на латинице" />
+            </form>
+            <div class="info">
+              <h5 class="title"></h5>
+              <img src="" alt="avatar" class="avatar"/>
+              <span class="episodes"></span>
+              <span class="score"></span>
+              <span class="type"></span>
+              <p class="synopsis"></p>
             </div>
-            <div class="anime">
-              <h3>Anime</h3>
-              <div class="bio">
-                <h5>Name</h5>
-                <img src="" alt="avatar">
-                <span>age</span>
-                <span>rating</span>
-                <p>decsdfsdfsefwf</p>
-                <span>name of anime</span>
-              </div>
-            </div>
-          </section>
+          </div>
+        </section>
       </div>
     </main>
+    <script src="./1script.js"></script>
+    <script src="./scriptAni.js"></script>
     <script src="./scriptfm.js"></script>
   </body>
 </html>
-
-
-
-
-
-
-
-   <!-- <section class="search">
-            <form class="search-form">
-              <input
-                class="search-input"
-                id="searchText"
-                placeholder="Write here"
-              />
-            </form>
-          </section> -->

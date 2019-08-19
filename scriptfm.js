@@ -39,6 +39,10 @@ function apiSearch(e) {
 }
 
 input.addEventListener("click", apiSearch);
+
 btnClean.addEventListener("click",function(e){
-  e.innerHTML = "";
+
+  e.preventDefault();
+  genre.value = "";
+  list.innerHTML = "";
 })
